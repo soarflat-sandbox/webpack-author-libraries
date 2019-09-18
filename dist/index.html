@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  ...
+  <script src="./webpack-numbers.js"></script>
+  <script>
+    console.log('webpackNumbers', webpackNumbers);
+    // ...
+    // Global variable
+    console.log(webpackNumbers.wordToNum('Five'));
+    // Property in the window object
+    console.log(window.webpackNumbers.wordToNum('Five'));
+    // ...
+  </script>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "webpack-author-libraries",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/webpack-numbers.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "author": "soarflat",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "private": true
+}
